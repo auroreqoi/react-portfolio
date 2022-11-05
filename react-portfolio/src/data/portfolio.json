@@ -1,0 +1,22 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/mariage/Nicoetlouise.png",
+      "title": "Mariage Louise & Nicolas",
+      "description": "Ruby on Rails, HTML, CSS",
+      "url": "https://mariageln.herokuapp.com/"
+    },
+    {
+      "cover": "/portfolio/wits/accueil.png",
+      "title": "Where is the Spot",
+      "description": "Figma, notion, Ruby on Rails, HTML, CSS, Bootstrap, PostgreSQL, JS, Stimulus",
+      "url": "https://www.whereisthespot.fr/"
+    },
+    {
+      "cover": "/portfolio/rbnb/Airbeenbee.png",
+      "title": "Air Bee n Bee",
+      "description": "Not Online Anymore. Figma, notion, Ruby on Rails, HTML, CSS, Bootstrap, PostgreSQL, JS, Stimulus",
+      "url": "/"
+    }
+  ]
+}
