@@ -1,12 +1,10 @@
 import './index.scss';
 import { Link, NavLink } from 'react-router-dom';
-import LogoS from '../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
+import LogoA from '../../assets/images/logo-aurore.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope, faSuitcase, faBars, faClose } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faTwitch } from '@fortawesome/free-brands-svg-icons'
 import { useState } from 'react';
-
 
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false)
@@ -14,8 +12,7 @@ const Sidebar = () => {
   return (
   <div className='nav-bar'>
     <Link className='logo' to='/'>
-      <img src={LogoS} alt='logo' />
-      <img className='sub-logo' src={LogoSubtitle} alt='Aurore' />
+      <img src={LogoA} alt='logo' />
     </Link>
     <nav className={showNav ? 'mobile-show' : ''}>
       <NavLink onClick={() => setShowNav(false)} exact='true' activeclassname='active' to='/'>

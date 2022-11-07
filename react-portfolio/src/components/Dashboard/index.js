@@ -4,7 +4,6 @@ import Login from "../Login";
 import Home from "./home";
 
 const Dashboard = () => {
-
   const [user, setUser] = useState(null);
   const auth = getAuth();
 

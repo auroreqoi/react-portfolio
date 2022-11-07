@@ -1,6 +1,4 @@
-import './index.scss'
 import { signInWithGoogle } from '../../firebase'
-
 
 const Login = () => {
   return (
