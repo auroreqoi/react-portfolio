@@ -13,8 +13,8 @@
 
     img {
       display: block;
-      margin: 8px auto;
-      width: 30px;
+      margin: 4px auto;
+      width: 50px;
       height: auto;
     }
   }
@@ -42,7 +42,8 @@
       }
 
       &:hover {
-        color: #ffd700;
+        color: #BBE7B1;
+        font-family: 'DotGothic16';
 
         svg {
           opacity: 0;
@@ -93,7 +94,7 @@
 
     a.active {
       svg {
-        color: #ffd700;
+        color: #BBE7B1;
       }
     }
   }
@@ -116,7 +117,7 @@
         line-height: 16px;
 
         &:hover svg {
-          color: #ffd700 ;
+          color: #BBE7B1 ;
         }
       }
     }
