@@ -1,6 +1,6 @@
 import './index.scss';
 import { Link, NavLink } from 'react-router-dom';
-import LogoA from '../../assets/images/logo-aurore.png'
+import LogoA from '../../assets/images/logo-aurore2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope, faSuitcase, faBars, faClose } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faTwitch } from '@fortawesome/free-brands-svg-icons'
