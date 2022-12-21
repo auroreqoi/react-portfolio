@@ -98,6 +98,7 @@
 
       .text-zone {
         position: initial;
+        top: 10%;
         transform: none;
         width: 100%;
         display: block;
@@ -105,9 +106,5 @@
         box-sizing: border-box;
       }
     }
-  }
-
-  .tewt-zone {
-    top: 10%;
   }
 }
