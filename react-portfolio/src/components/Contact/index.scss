@@ -107,6 +107,7 @@
   opacity: 0;
   animation: backInRight 1s 1.2s;
   animation-fill-mode: forwards;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1200px) {
