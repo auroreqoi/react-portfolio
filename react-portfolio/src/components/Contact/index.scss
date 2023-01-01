@@ -21,10 +21,10 @@
     }
 
     li.half {
-      width: 49%;
-      margin-left: 12px;
+      width: 100%;
       float: left;
       clear: none;
+      border: solid 0;
 
       &:first-child {
         margin-left: 0;
